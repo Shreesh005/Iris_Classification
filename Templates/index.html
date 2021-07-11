@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="{{url_for('static', filename='CSS/style.css')}}" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <center>
+        <h1 id="heading">IRIS SPECIES CLASSIFICATION</h1>
+        <div id="form">
+        <form action = "/predict" method="POST">
+            <label accesskey="Sepal Length">Sepal Length</label>
+            <input name="Sepal Length" placeholder="Enter Sepal Length" class="inputs" required="">
+            <br>
+            <br>
+            <label accesskey="Sepal with">Sepal Width</label>
+            <input name="Sepal width" placeholder="Enter Sepal width" class="inputs" required="">
+            <br>
+            <br>
+            <label accesskey="Petal Length">Petal Length</label>
+            <input name="Petal Length" placeholder="Enter Petal Length" class="inputs" required="">
+            <br>
+            <br>
+            <label accesskey="Petal width">Petal width</label>
+            <input name="Petal width" placeholder="Enter Petal Width" class="inputs" required="">
+            <br>
+            <br>
+            <button type="submit" class="btn btn-primary btn-block btn-large" id=:><strong>Predict Species</strong></button></a>
+        </form>
+    </div>
+    </center>
+    <div id="last">
+        <center>
+            <h1>{{prediction_text}}</h1>
+            <h4>{{message}}</h4>
+        </center>
+    </div>
+    <center><img src="{{url_for('static', filename='Images/download.jpg')}}"</center>
+</body>
+</html> 
