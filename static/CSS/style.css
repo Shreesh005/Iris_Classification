@@ -17,9 +17,9 @@ body{
 }
 #heading:hover{
     box-shadow:
-                0 5px 50px rgb(250,100, 20),
-                0 5px 50px #eeff00,
-                0 5px 50px #eeff00 inset,
+                0 5px 50px rgb(24, 20, 250),
+                0 5px 50px #0004ff,
+                0 5px 50px #00ff40 inset,
                 0 5px 50px #00ff15;
 
     text-shadow:
