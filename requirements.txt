@@ -1,14 +1,5 @@
 absl-py==0.13.0
 altgraph==0.17
-arrow==1.1.1
-astunparse==1.6.3
-beautifulsoup4==4.9.3
-cached-property==1.5.2
-cachetools==4.2.2
-certifi==2021.5.30
-chardet==4.0.0
-click==8.0.1
-colorama==0.4.4
 cycler==0.10.0
 docopt==0.6.2
 Flask==2.0.1
@@ -49,8 +40,6 @@ pipwin==0.5.1
 protobuf==3.17.3
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-PyAudio @ file:///C:/Users/Pc/pipwin/PyAudio-0.2.11-cp37-cp37m-win_amd64.whl
-pyinstaller==4.4
 pyinstaller-hooks-contrib==2021.2
 pyjsparser==2.7.1
 pyparsing==2.4.7
@@ -69,12 +58,6 @@ scikit-learn==0.24.2
 scipy==1.7.0
 six==1.15.0
 sklearn==0.0
-soupsieve==2.2.1
-tensorboard==2.5.0
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.0
-tensorflow==2.5.0
-tensorflow-estimator==2.5.0
 termcolor==1.1.0
 threadpoolctl==2.2.0
 times==0.7
