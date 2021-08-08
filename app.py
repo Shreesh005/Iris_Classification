@@ -23,4 +23,4 @@ def predict():
     return render_template("index.html", prediction_text="The predicted species is {}".format(last), message=message)
 
 if __name__=="__main__":
-    app.run()
+    app.run(host="0.0.0.0")
